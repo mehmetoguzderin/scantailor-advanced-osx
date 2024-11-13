@@ -1,12 +1,12 @@
 class Scantailor < Formula
-  desc "Scantailor (Advanced) : bookscan images processor"
-  homepage "https://github.com/vigri/scantailor-advanced"
+  desc "ScanTailor Advanced: Postprocessing for Book Scans"
+  homepage "https://github.com/ScanTailor-Advanced/scantailor-advanced"
   
-  url "https://github.com/vigri/scantailor-advanced/archive/refs/tags/v1.0.18.tar.gz"
-  sha256 "1daa21e8455bcf3c6f8807c1a025fd9c43c073a4a32193892b36e9c9610d4729"
-  version "1.0.18"
+  url "https://github.com/ScanTailor-Advanced/scantailor-advanced/archive/refs/tags/v1.0.19.tar.gz"
+  sha256 "db41c3a1ba0ecfc00a40a4efe2bcc9d2abb71ecb77fdc873ae6553b07a228370"
+  version "1.0.19"
 
-  head "https://github.com/vigri/scantailor-advanced.git"
+  head "https://github.com/ScanTailor-Advanced/scantailor-advanced.git"
   
   depends_on "boost"
   depends_on "qt6"
