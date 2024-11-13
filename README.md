@@ -1,12 +1,8 @@
 # scantailor-advanced-osx
 Homebrew formula and App bundler for Scantailor (Advanced). Now uses Qt6 framework.
 
-
-
 See [4lex4/scantailor-advanced](https://github.com/4lex4/scantailor-advanced) for the original project.
 The project seems to be abandoned, this formula now fetches from the fork [vigri/scantailor-advanced](https://github.com/vigri/scantailor-advanced)
-
-**Look at the [Releases](https://github.com/yb85/scantailor-advanced-osx/releases) section for a bundled App (macos12 Monterey x64 and macos10 Catalina x64).**
 
 ## Installing via homebrew ##
 
@@ -14,7 +10,7 @@ The project seems to be abandoned, this formula now fetches from the fork [vigri
 
 All automated, execute in your terminal :
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/yb85/scantailor-advanced-osx/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mehmetoguzderin/scantailor-advanced-osx/HEAD/install.sh)"
 ```
 
 This script tries to install `brew` and `git` if missing. It may ask you to install the command-line developper tools.
@@ -23,7 +19,7 @@ If both these utilities are present, it clones this repository and install the h
 To install the `HEAD` and not the latest release run
 
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/yb85/scantailor-advanced-osx/HEAD/install.sh)" install --HEAD
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mehmetoguzderin/scantailor-advanced-osx/HEAD/install.sh)" install --HEAD
 
 ```
 
@@ -32,7 +28,7 @@ To install the `HEAD` and not the latest release run
 
 1. clone the repository
 ```
-git clone "https://github.com/yb85/scantailor-advanced-osx.git"
+git clone "https://github.com/mehmetoguzderin/scantailor-advanced-osx.git"
 cd ./scantailor-advanced-osx
 ```
 
